@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import TokenCard from "./components/TokenCard";
 import HomeSection from "./components/HomeSection";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 const tokens = [
   {
@@ -104,6 +105,7 @@ export default function Home() {
         <HomeSection/>
         <FAQ/>
       </div>
+      <Footer/>
     </main>
   );
 }
