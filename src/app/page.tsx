@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import TokenCard from "./components/TokenCard";
 import HomeSection from "./components/HomeSection";
+import FAQ from "./components/FAQ";
 
 const tokens = [
   {
@@ -97,10 +98,11 @@ const tokens = [
 
 export default function Home() {
   return (
-    <main className="bg-gray-800 min-h-screen">
+    <main className="bg-gray-900">
       <Header />
-      <div className="flex items-center justify-center h-screen">
+      <div className="flex items-center justify-center flex-col gap-1 mt-2">
         <HomeSection/>
+        <FAQ/>
       </div>
     </main>
   );
